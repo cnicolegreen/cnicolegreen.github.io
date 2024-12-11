@@ -49,9 +49,12 @@ body {
     text-align: center;
 }
 
-a:link,
+a:link{
+    color: #fff;
+}
+
 a:visited {
-    color: grey;
+    color: lightgray;
 }
 
 nav a {
