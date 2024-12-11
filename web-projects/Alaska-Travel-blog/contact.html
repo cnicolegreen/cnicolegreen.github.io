@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="https://kit.fontawesome.com/d6d354bc8c.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 class="playfair-display-H1"> Alaskan Adventures</h1>
+        <img src="TravelAlaska-logo.png" alt="Travel Alaska">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="">GALLERY</a></li>
+            <li><a href="">TRAVEL</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Contact Info</h2>
+        <div class="contactpg">
+            <form action="thankyou.html" method="get">
+                <fieldset>
+                    <!-- First Name -->
+                    
+                    <label for="fname">
+                        First Name:
+                        <input autofocus type="text" id="fname" name="firstname" placeholder="Enter Your First Name"
+                            required>
+                    </label>
+                    <!-- Last Name -->
+                    <label for="lname">
+                        Last Name:
+                        <input type="text" id="lname" name="lastname" placeholder="Enter Your Last Name" required>
+                    </label>
+                    <!-- Email -->
+                    <label for="email">
+                        Email:
+                        <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+                    </label>
+                    <!-- STATE -->
+                    <label for="state">
+                        State:
+                        <select id="state" name="state">
+                            <option value="al">ALABAMA</option>
+                            <option value="ak">ALASKA</option>
+                            <option value="az">ARIZONA</option>
+                            <option value="ar">ARKANSAS</option>
+                            <option value="mo">MISSOURI</option>
+                        </select>
+                    </label>
+                    <!-- DATE -->
+                    <label for="DATE">
+                        Date:
+                        <input type="date" id="DATE" name="date">
+                    </label>
+
+                    <!-- Level of interest -->
+                    <label for="interested">
+                        Please rate your level of interest: (1 lowest - 10 highest)
+                        <input type="number" id="interested" name="levelofinterest" min="1" max="10" required>
+                    </label>
+               
+
+                    <!-- Discount Y/N -->
+                    <div class="bluebox">
+                    <label for="discounty">
+                        Would you like more information on how to obtain a 20% discount on your next vacation? <br> 
+                    
+                        YES
+                        <input type="radio" id="discounty" name="discount">
+                    </label>
+              
+                    <label for="discountn">
+                        NO
+                        <input type="radio" id="discountn" name="discount">
+                    </label>
+                </div>
+
+                    <!-- Checkbox I'm interested in... -->
+                    <p class="inline-label">
+                        I AM INTERESTED IN (Check all that apply): </p>
+
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="opt1" name="opt1" value="Book trip">
+                        <label for="opt1" class="inline-label"> Booking a trip to Alaska</label>
+                    </div>
+
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="opt2" name="opt2" value="Travel Tips">
+                        <label for="opt2" class="inline-label"> Travel tips
+                        </label>
+                    </div>
+
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="opt3" name="opt3" value="Fly fishing">
+                        <label for="opt3" class="inline-label"> Fly fishing excursions</label>
+                    </div>
+
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="opt4" name="opt4" value="Alaskan cruise">
+                        <label for="opt4" class="inline-label"> Alaskan cruise information</label>
+                    </div>
+
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="opt5" name="opt5" value="Float plane">
+                        <label for="opt5" class="inline-label"> Float plane tours</label>
+                    </div>
+
+                    <label for="comments">
+                        ADDITIONAL COMMENTS: <br>
+                        <textarea name="comments" id="comments" rows="5" cols="30"></textarea>
+
+                    </label>
+
+                    <!-- Submit button -->
+                     <label for="submit">
+                    <input type="submit" value="SUBMIT" id="submit">
+                </label>
+
+                </fieldset>
+
+
+            </form>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p class="=contact-info">CONTACT INFO</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <p>&copy; Carmen 2024</p>
+    </footer>
+
+</body>
+
+</html>

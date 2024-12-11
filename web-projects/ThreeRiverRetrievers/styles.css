@@ -1,0 +1,337 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+/*FONTS*/
+.playfair-display-header {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.playfair-display-header a {
+    text-decoration: none;
+    color: black;
+}
+
+.playfair-display-header a:hover {
+    color: burlywood;
+}
+
+.merriweather-sans-bodytxt {
+    font-family: "Merriweather Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+/*SOC MEDIA icons*/
+.soc-med-styles {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+.fa-brands {
+    margin: 0 5px;
+    color: black;
+    font-size: 2em;
+}
+
+.fa-brands:hover {
+    color: burlywood;
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+/*NEXT PUPPY CYCLE call out*/
+.next-puppy-cycle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+/*NAV BAR*/
+nav {
+    margin: auto;
+    background-color: grey;
+    text-align: center;
+}
+nav .merriweather-sans-bodytxt ul li {
+    padding: 10px 15px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    background-image: url(soc-med/paw-solid.svg);
+    background-repeat: no-repeat;
+    margin: 15px 15px;
+    padding-left: 10px;
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+/*PUPPY HERO IMG*/
+.hero-image {
+    background-image: url("ThreeRiver-imgs/puppy-img.jpg");
+    height: 45%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/*MIDDLE SECTION style*/
+.middle-section-style{
+    background-color: bisque;
+}
+   
+
+/*H1, H5, and p styles*/
+h1 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px auto;
+}
+
+h5 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1rem;
+}
+
+p {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: left;
+    margin: auto;
+}
+
+/* Paws icon margin NAV*/
+ul a {
+    margin: 0px 30px;
+}
+
+ul li {
+    text-align: left;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:link {
+    color: #fff;
+}
+
+nav a:visited {
+    color: burlywood;
+}
+
+nav a:hover {
+    color: bisque;
+}
+
+/*SECTION style*/
+section {
+    max-width: 900px;
+    margin: auto;
+    text-align: left;
+}
+
+/*CARDS styles*/
+.card-title {
+    text-align: center;
+}
+
+.col {
+    margin-top: 30px;
+}
+
+/*WHY a Golden Retriever styling*/
+section ul li {
+    list-style-type: none;
+    padding: 10px 10px 0px 40px;
+    background-image: url(soc-med/paw-solid.svg);
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    margin: auto;
+}
+
+/*MEET OUR DOGS STYLING*/
+#meet-our-dogs {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+#meet-our-dogs h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.album {
+    margin-bottom: 40px;
+}
+
+.album h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.album-gallery {
+    display: flex;
+    gap: 15px;
+}
+
+.album-gallery img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid burlywood;
+    border-radius: 8px;
+}
+
+.album-gallery img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+/*CONTACT PAGE STYLING*/
+.contactpg {
+    margin: auto;
+    margin-top: 30px;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    background-color: bisque;
+    padding: 15px;
+    box-sizing: border-box;
+
+}
+
+label {
+    display: block;
+
+}
+
+#dropdown {
+    padding-left: 10px;
+}
+
+/*SUBMIT styles*/
+#submit {
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: auto;
+    display: block;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: fit-content;
+
+
+}
+
+#submit:hover {
+    background-color: #333;
+    /* Slightly darker background on hover */
+}
+
+/* RESPONSIVE DESIGN for Soc media and Upcoming litter - small screen)*/
+.hidden {
+    display: none !important;
+  }
+  @media (max-width: 768px) {
+    .soc-med-styles,
+    .next-puppy-cycle {
+      display: none; /* Hides these sections on smaller screens */
+    }
+  }
+  
+
+/* RESPONSIVE DESIGN for smaller viewport - CONTACT PAGE*/
+fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    border: none;
+    padding: 10px;
+}
+
+label {
+    flex: 1 1 100%;
+    /* Ensures labels take full width */
+}
+
+textarea {
+    flex: 1 1 100%;
+    /* Makes the textarea full width */
+}
+
+@media (max-width: 768px) {
+
+    textarea,
+    input,
+    select {
+        font-size: 14px;
+    }
+
+    fieldset {
+        flex-direction: column;
+    }
+}
+
+/*RESPONSIVE - nav list*/
+@media (max-width: 768px) {
+    #nav-list {
+       
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+/* PURCHASE CONTRACT STYLING*/
+.thank-you-purchase {
+    margin-bottom: 30px;
+}
+
+.adobe-acrobat-link {
+    padding-top: 20px;
+}
+
+footer {
+    padding: 10px 5px;
+
+}
+
+/*FAQs*/
+h5 {
+    text-align: left;
+}
+
+.faq-1 {
+    margin-top: 30px;
+}

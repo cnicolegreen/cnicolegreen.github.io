@@ -1,0 +1,63 @@
+
+body, header, p, h1 {margin: 15px}
+
+
+.NAVstyle {
+  width: 95%;
+  margin: auto;
+  background-color: #0f5091;
+  color: white;
+}
+
+.NAVstyle ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+
+}
+
+.NAVstyle li {
+  display: inline-block;
+  /* Makes the list items inline */
+  margin-right: 15px;
+  /* Adds space between items */
+  background-image: url('Images/PB_Yellowball_RESIZE75px.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+  /* Adjusts the image position */
+  padding-left: 30px;
+  /* Adds padding to create space for the background image */
+  background-size: 20px 20px;
+  /* Adjusts the size of the background image */
+}
+
+
+header{
+  text-align: center;
+  color: #0f5091;
+  text-shadow: 5px 5px 5px grey;
+}
+
+a {text-decoration: none;}
+a:link {color: whitesmoke;}
+a:visited {color: white }
+a:hover {color: rgb(228, 221, 16);}
+
+/*IMAGES STYLE*/
+img{
+width: 25%;
+
+}
+
+/*FOOTER STYLES*/
+ul.contactstyle{
+    list-style-type: square;
+    background: #0c3258;
+    padding: 20px;
+    
+}
+
+footer{
+    clear: both;
+}

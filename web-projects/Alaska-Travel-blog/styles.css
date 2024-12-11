@@ -1,0 +1,193 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+header {
+    padding: 40px 0px 25px 25px;
+    box-shadow: 0px 2px 5px lightgray;
+}
+
+h1 {
+    text-align: center;
+    color: #173f6c;
+}
+
+header img {
+    box-shadow: 0px 2px 5px lightgray;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+}
+
+/* Main header and headings text style */
+.playfair-display-H1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*NAV: Sticky will keep the Nav bar at the top of the viewer*/
+nav {
+    position: sticky;
+    top: 0;
+}
+
+nav,
+footer {
+    background-color: #3191af;
+    box-shadow: 0px 2px 5px lightgrey;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #173f6c;
+    font-size: 1.2em;
+    padding: 10px 20px;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+main,
+footer {
+    color: #173f6c
+}
+
+main {
+    margin: auto;
+    width: 100%;
+}
+
+section {
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    padding: 20px 35px 20px 5px;
+    text-align: left;
+}
+
+/*FLOATING the plane image to the left of the text */
+.floatplane img {
+    height: 350px;
+    float: left;
+    border: lightgray solid 15px;
+    margin-right: 20px;
+    margin-left: -10px;
+}
+
+/*FLOATING the kayak image to the right of the text */
+.kayakimg img {
+    height: 350px;
+    float: right;
+    border: lightgray solid 15px;
+    margin-top: -20px;
+    margin-right: -45px;
+
+}
+
+.centerstyle {
+    background-color: #3191af;
+    border-color: #173f6c;
+}
+
+p,
+h1,
+h2 {
+    max-width: 775px;
+    margin: auto;
+    line-height: 1.5;
+}
+
+/*Relative positioning of the container, created so that we could use absolute positioning for the call-out box */
+.container {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+/*Absolute positioning of the 20% discount call-out box, absolute position to the parent */
+.callout {
+    position: absolute;
+    top: 10px;
+    right: 325px;
+    background-color: lightgrey;
+    padding: 5px;
+    color: rgb(181, 49, 49);
+    font-weight: bold;
+    border: black solid 2px;
+    box-shadow: 5px 5px 5px lightgray;
+}
+
+footer {
+    max-height: 150px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+/*FLOATING @Carmen 2024 to the right of the text */
+footer p:last-child {
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.social-icons {
+    margin: 5px;
+}
+
+/*CONTAGE PAGE styling*/
+.contactpg{
+    margin: auto;
+    width: 50%;
+}
+
+fieldset{
+    margin-bottom: 10px;
+}
+
+label{
+    display: block;
+    padding-top: 3px;
+    padding-bottom: 5px;
+}
+
+.bluebox{
+    background-color: #3191af;
+    padding: 5px 5px;
+    font-weight: bold;
+}
+
+.inline-label {
+    display: inline-block;
+}
+
+input[type="submit"] {
+    padding: 10px 10px; 
+    margin-left: 2px;
+    font-size: 16px; 
+    border-radius: 5px; 
+    background-color: #3191af; 
+    color: white;       
+    border: none;       
+    cursor: pointer;
+}
+

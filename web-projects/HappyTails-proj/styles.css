@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 30px 0px 15px 0px;
+    text-shadow: 5px 5px 5px white;
+}
+
+body {
+    background-color: #e2594b;
+}
+
+div {
+    margin: auto;
+    width: 80%;
+}
+
+/*Images*/
+.med-image {
+    width: 250px;
+    height: auto;
+    border: 10px solid white;
+    border-radius: 8px;
+}
+.imgleft {
+    float: left;
+    margin: 25px 25px 25px 35px;
+}
+.imgright {
+    float: right;
+    margin: 10px 50px 25px 5px;
+}
+
+.image-margin{
+    margin: 10px 10px;
+}
+
+/* FONTS */
+.dynapuff_header {
+    font-family: "DynaPuff", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    font-size: 3.5em;
+    text-align: center;
+}
+
+.dynapuff_H1 {
+    font-family: "DynaPuff", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    font-size: 2em;
+    text-align: left;
+}
+
+/* NAV STYLING*/
+nav {
+    background-color: #0f5091;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 80%;
+    border: 8px solid white;
+    position: sticky;
+    top: 0;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+    padding-left: 30px;
+    background-image: url('branding/paw-solid.svg');
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: left center;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    color: aquamarine
+}
+
+a:hover {
+    color: #e2594b;
+}
+
+/* RATES section - relative positioning to set up promo code*/
+#anchorhere {
+    position: relative;
+}
+.promocode {
+    background-color: white;
+    border: 3px solid black;
+    margin: auto;
+    padding: 0px 3px;
+    position: absolute;
+    top: 17px;
+    left: 650px;
+}
+/*Styled and added dog paws to UPGRADES section */
+section {
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.5;
+    text-align: left;
+    padding: 5px 10px 10px 5px;
+}
+
+section ul li {
+    list-style-type: none;
+    padding-left: 30px;
+    background-image: url(branding/paw-solid.svg);
+    background-size: 20px 15px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+
+/*FOOTER*/
+footer {
+    background-color: #0f5091;
+    color: white;
+    padding: 10px 5px;
+    text-align: right;
+    border: 8px solid white;
+
+    position: relative;
+    width: 80%;
+    margin-bottom: 25px;
+    margin: 20px auto;
+    clear: both;
+
+}
+
+/*Tab 3 - CONTACT PAGE STYLES*/
+.contactpg {
+    margin: auto;
+    margin-bottom: 40px;
+    width: 35%;
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 8px solid black;
+}
+
+
+.checkbox-group {
+    margin-left: 0;
+}
+
+
+label {
+    display: block;
+    padding: 3px 20px;
+}
+
+.checkbox-left {
+    padding: 2px 20px 0px;
+}
+
+.inline-label {
+    display: inline-block;
+}
+
+
+input[type="submit"] {
+    padding: 10px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #0f5091;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+fieldset {
+    padding: 0;
+    margin: 0;
+    border: none;
+}

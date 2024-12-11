@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <script>
+    function printQuery() {
+      var query = window.location.search.substring(1);
+      var vars = query.split("&");
+
+      for (var i = 0; i < vars.length; i++) {
+        var pair = vars[i].split("=");
+          document.write(pair[0] + ": " + pair[1] + "<br />");
+      }
+    }
+  </script>
+
+  <link rel="stylesheet" href="styles.css">
+
+<!-- FONT: Playfair display (Headers: Black 900) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<!-- FONT: Merriweather sans (body text - light 300) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <title>Thank you! </title>
+</head>
+
+<body>
+
+    <header>
+        <p class="playfair-display-header">ThreeRiverRetrievers</p>
+    </header>
+
+    <nav>
+        <div class="merriweather-sans-bodytxt">
+        <ul>
+           <li> <a href="index.html">HOME</a></li>
+           <li> <a href="ourdogs.html">OUR DOGS</a></li>
+           <li> <a href="contactpg.html">CONTACT US</a></li>
+           <li> <a href="purchaseinfo.html">HOW TO PURCHASE</a></li>
+           <li> <a href="faq.html">FAQ</a></li>
+        </ul>
+    </div>
+    </nav>
+
+  <div class="container">
+    <h2>Thank you! We will be in touch soon!</h2>
+
+    <script>
+      printQuery();
+    </script>
+  </div>
+
+  <footer>
+    &copy; 2024 ThreeRiverRetrievers
+  </footer>
+</body>
+
+</html>

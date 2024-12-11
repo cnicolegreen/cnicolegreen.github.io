@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThreeRiverRetrievers</title>
+
+    <!-- Bootstrap link -->
+    <link href="CSS/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- FONT Awesome -->
+    <script src="https://kit.fontawesome.com/d6d354bc8c.js" crossorigin="anonymous"></script>
+
+
+    <!-- FONT: Playfair display (Headers: Black 900) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- FONT: Merriweather sans (body text - light 300) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+     <!-- HEADER -->
+     <header>
+        <div>
+         <p class="playfair-display-header"> 
+           <a href="index.html">ThreeRiverRetrievers</a>
+         </p>
+       </div>
+         <div class="next-puppy-cycle">
+           <p> 
+             <i class="fa-solid fa-bullhorn"></i>
+             Our next litter of puppies is coming: <a href="faq.html">JAN 2025!</a></p>
+         </div>
+     
+         <!-- SOCIAL MEDIA ICONS -->
+         <div class="soc-med-styles">
+           <a href="https://instagram.com/tresamimi777" target="_blank" aria-label="Instagram"> <i
+               class="fa-brands fa-instagram"></i></a>
+     
+           <a href="https://www.facebook.com/tresa.marlowkimbrough" target="_blank" aria-label="Facebook"> <i
+               class="fa-brands fa-square-facebook"></i></a>
+     
+           <a href="https://www.tiktok.com/@threeriverretrievers?lang=en" target="_blank" aria-label="Tiktok"> <i
+               class="fa-brands fa-tiktok"></i></a>
+         </div>
+       </header>
+     
+       <nav>
+         <div class="merriweather-sans-bodytxt">
+           <!-- Navigation Links -->
+           <ul id="nav-list">
+             <li><a href="index.html">HOME</a></li>
+             <li><a href="ourdogs.html">OUR DOGS</a></li>
+             <li><a href="contactpg.html">CONTACT US</a></li>
+             <li><a href="purchaseinfo.html">HOW TO PURCHASE</a></li>
+             <li><a href="faq.html">FAQ</a></li>
+           </ul>
+         </div>
+       </nav>
+    <div>
+    
+        <section>
+            <h1>CONTACT US FOR MORE INFO</h1>
+            <p style="text-align: center;">Submit your information below and we will be happy to contact you within 24-48 hrs.
+            </p>
+        </section>
+    </div>
+
+    <!-- CONTACT FORM -->
+    <div>
+        <form action="thankyou.html" method="get">
+            <fieldset class="contactpg merriweather-sans-bodytxt">
+                <label for="fname">
+                    First:
+                    <input type="text" id="fname" name="first name" placeholder="Enter Your First Name" required>
+                </label>
+
+                <label for="lname">
+                    Last:
+                    <input type="text" id="lname" name="last name" placeholder="Enter Your Last Name" required>
+                </label>
+
+                <label for="email">
+                    Email:
+                    <input type="email" id="email" name="email" placeholder="Enter Email Address" required>
+                </label>
+
+                <label for="phone">
+                    Phone:
+                    <input type="tel" name="phone" id="phone" placeholder="(123) 456-0000"
+                        pattern="\(\d{3}\) \d{3}-\d{4}" title="Format: (000) 123-4567">
+
+                </label>
+
+                <label for="dropdown"> I WOULD LIKE TO:</label>
+                <select id="dropdown" name="nextsteps">
+                    <option value="visit">Schedule a visit</option>
+                    <option value="more-info">Request more information</option>
+                    <option value="purchase">Purchase a puppy</option>
+                    <option value="updates">Be notified on the next puppy cycle</option>
+                    <option value="top-choice">Become a premium member (see FAQ page)</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <br>
+
+                <label for="boy">
+                    I AM INTERESTED IN: <br>
+                    <input type="radio" id="boy" name="puppy" value="boy">
+                    a male puppy (sire)
+                </label>
+                <label for="girl">
+                    <input type="radio" id="girl" name="puppy" value="girl">
+                    a female puppy
+                </label>
+
+                <label for="contract">
+                    I understand I must read and sign the contract before purchase (details found under <a href="purchaseinfo.html"> How to Purchase)</a>
+                    <input type="checkbox" id="contract" required>
+                </label>
+
+
+                <label for="comments"> ADDITIONAL QUESTIONS OR COMMENTS: <br>
+                    <textarea name="comments" id="comments" rows="5" cols="40"></textarea>
+                </label>
+
+            </fieldset>
+
+            <label for="submit">
+                <input type="submit" value="SUBMIT" id="submit">
+            </label>
+
+        </form>
+    </div>
+    <footer>
+        &copy; 2024 ThreeRiverRetrievers
+      </footer>
+</body>
+
+</html>
