@@ -44,14 +44,16 @@ body {
     font-size: 18px;
     text-decoration: none;
     border-radius: 10px;
-    color: #fff;
     transition: background-color 0.3s ease, color 0.3s ease;
     text-align: center;
 }
 
-a:link,
+a:link{
+    color: #fff;
+}
+
 a:visited {
-    color: grey;
+    color: lightgray;
 }
 
 nav a {
@@ -61,6 +63,8 @@ nav a {
 
 .nav-style a:hover {
     color: lightgray;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
 }
 
 /* RESPONSIVE DESIGN - NAV*/
